@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 0; padding: 0; text-align: center; }
+header { background: #333; color: white; padding: 20px; }
+nav { background: #eee; padding: 10px; }
+nav a { margin: 0 10px; text-decoration: none; color: #333; }
+section { padding: 20px; }
