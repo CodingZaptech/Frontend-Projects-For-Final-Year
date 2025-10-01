@@ -1,0 +1,8 @@
+body { font-family: Arial; margin: 0; padding: 0; text-align: center; }
+header { background: #333; color: white; padding: 15px; }
+header nav a { color: white; margin: 0 10px; text-decoration: none; }
+section { padding: 20px; }
+footer { background: #eee; padding: 10px; }
+@media (max-width: 600px) {
+    header nav a { display: block; margin: 5px 0; }
+}
