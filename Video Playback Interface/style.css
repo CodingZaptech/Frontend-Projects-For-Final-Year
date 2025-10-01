@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.video-container {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#progressBar, #volumeControl {
+  width: 200px;
+  margin-left: 10px;
+}
