@@ -1,0 +1,5 @@
+body { font-family: Arial; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { text-align: center; padding: 20px; border: 1px solid #ccc; border-radius: 8px; width: 300px; }
+input { padding: 8px; width: 60%; margin-right: 5px; }
+button { padding: 8px; cursor: pointer; }
+#weatherResult { margin-top: 15px; }
