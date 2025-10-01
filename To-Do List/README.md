@@ -1,4 +1,4 @@
-# Interactive To-Do List App
+# To-Do List
 
 An interactive To-Do List application to help users manage their daily tasks efficiently. Users can add, mark as complete, and delete tasks in a clean and responsive interface.
 
