@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Playback Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="video-container">
+    <h1>Custom Video Player</h1>
+
+    <!-- Video element -->
+    <video id="video" width="640" height="360">
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <!-- Custom controls -->
+    <div class="controls">
+      <button id="playPauseBtn">Play</button>
+      <button id="stopBtn">Stop</button>
+      <input type="range" id="progressBar" value="0" min="0" max="100">
+      <label for="volumeControl">Volume</label>
+      <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
